@@ -1,2 +1,4 @@
 My first commit test 
-to be staged and commit next and pushed
+to be staged and commit next and 
+
+Adding a newline and some text on the following and deleted a word from the second line.
