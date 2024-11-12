@@ -3,4 +3,9 @@ to be staged and commit next and
 
 Adding a newline and some text on the following and deleted a word from the second line.
 
+<<<<<<< HEAD
 Editing this line in my online github editor.
+=======
+Adding a new line in local mac before the last commit was reflected from the github repo to the local.
+Trying to create a conflict.
+>>>>>>> 40a4d60 (Added a new line to create conflic in durga1.txt)
