@@ -1,8 +1,7 @@
-
 # Comparison: Azure Files Premium vs. Azure NetApp Files Standard
 
 ## Overview
-This article provides a detailed comparison between Azure Files Premium and Azure NetApp Files Standard, focusing on their features, performance, use cases, and cost implications.
+This article provides a detailed comparison between Azure Files Premium and Azure NetApp Files Standard, focusing on their features, performance, use cases, cost implications, and benchmark results.
 
 ## Features
 
@@ -42,6 +41,16 @@ This article provides a detailed comparison between Azure Files Premium and Azur
 | **Billing Model**            | Based on provisioned storage and performance tier                                      | Based on provisioned storage capacity in capacity pools                                |
 | **Provisioned Storage Cost** | Moderate to high depending on performance tier                                         | Lower compared to Premium and Ultra tiers                                              |
 | **Additional Features**      | Redundancy options (LRS, ZRS), snapshots                                                | Cross-region replication, snapshots, backups                                           |
+
+### **Pricing Details**
+
+- **Azure Files Premium**:
+  - Pricing is based on the provisioned storage and the performance tier.
+  - Example: \$0.24 per GiB for provisioned storage[^1^][1].
+
+- **Azure NetApp Files Standard**:
+  - Pricing is based on the provisioned storage capacity in capacity pools.
+  - Example: \$0.15 per GiB for provisioned storage[^2^][2].
 
 ## Benchmark Results
 
